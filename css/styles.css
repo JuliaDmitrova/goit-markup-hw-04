@@ -538,7 +538,10 @@ body {
   margin-right: 30px;
 }
 
-.clients-list-bg {
+.clients-icon {
+  fill: #afb1b8;
+}
+.clients-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -549,15 +552,11 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
 }
-
-.clients-list-bg:hover,
-.clients-list-bg:focus {
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid var(--secondary-accent-color);
 }
 
-.clients-icon {
-  fill: #afb1b8;
-}
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
   fill: var(--secondary-accent-color);
