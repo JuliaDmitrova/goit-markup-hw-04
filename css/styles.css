@@ -493,7 +493,7 @@ body {
   margin-right: 10px;
 }
 
-.social-item:not(:last-child) {
+.social-item :last-child {
   margin-right: 0;
 }
 .social-link {
@@ -554,15 +554,17 @@ body {
 .clients-list-bg:focus {
   border: 1px solid var(--secondary-accent-color);
 }
+
 .clients-icon {
   fill: #afb1b8;
 }
-.clients-list-bg:hover .clients-icon,
-.clients-list-bg:focus .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--secondary-accent-color);
 }
 
 /*-----------Футер-----------*/
+
 .section-footer {
   padding-top: 60px;
   padding-bottom: 60px;
